@@ -9,6 +9,7 @@
     "start": "node server/index.js",
     "server": "node server/index.js",
     "build": "vite build",
+    "postinstall": "npm run build",
     "lint": "oxlint",
     "preview": "vite preview"
   },
